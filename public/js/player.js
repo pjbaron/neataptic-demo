@@ -69,11 +69,21 @@ Player.prototype = {
   },
 
   /** Calculate fitness of this players genome **/
-  score: function(){
-    var dist = distance(this.x, this.y, walker.x, walker.y);
-    if(!isNaN(dist) && dist < SCORE_RADIUS){
+  score: function()
+  {
+    var dx = walker.x - this.x;
+    var dy = walker.y - this.y;
+    // world is toroidal, wrap around at edges
+    if (dx > WIDTH / 2) dx = WIDTH - dx;
+    if (dx < -WIDTH / 2) dx = WIDTH + dx;
+    if (dy > HEIGHT / 2) dy = HEIGHT - dy;
+    if (dy < -HEIGHT / 2) dy = HEIGHT + dy;
+    var dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < SCORE_RADIUS)
+    {
       this.brain.score += (SCORE_RADIUS - dist) / SCORE_RADIUS;
-      if(this.brain.score <= 0) this.brain.score = 0
+      if (this.brain.score <= 0)
+      	this.brain.score = 0;
     }
 
     // Replace highest score to visualise

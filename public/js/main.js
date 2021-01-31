@@ -135,11 +135,11 @@ function endEvaluation()
   averageScore = totalScore / neat.elitism;
 
   // Variable mutation... (Lerp towards target)
-  let mutationTarget = MUTATION_RATE + (1 - Math.min(averageScore / 150, 1)) * (MAX_MUTATION - MUTATION_RATE);
+  let mutationTarget = MUTATION_RATE + (1 - Math.min(averageScore / 125, 1)) * (MAX_MUTATION - MUTATION_RATE);
   neat.mutationRate += (mutationTarget - neat.mutationRate) * 0.1;
   neat.mutationRate = Math.min(neat.mutationRate, MAX_MUTATION);
 
-  if (firstConvergence == -1 && averageScore > 100)
+  if (firstConvergence == -1 && averageScore > 125)
   {
     if(neat.generation > 10)
     {
