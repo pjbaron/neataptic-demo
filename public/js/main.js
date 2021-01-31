@@ -8,9 +8,10 @@ var Architect = neataptic.Architect;
 Config.warnings = false;
 
 /** Settings */
-var SPEED 			 = 8;
-var WIDTH            = 1024;	//$(window).width();
-var HEIGHT           = 768; 	//$(window).height();
+var SPEED 			 = 1;
+var WIDTH            = $(window).width();	//1024;
+var HEIGHT           = $(window).height(); 	//768;
+var FRICTION		 = 0.01
 var MAX_SPEED        = WIDTH/150;
 var START_X          = WIDTH/2;
 var START_Y          = HEIGHT/2;
@@ -41,13 +42,12 @@ function initNeat(){
     null,
     {
       mutation: [
-        Methods.Mutation.ADD_NODE,
-        Methods.Mutation.ADD_NODE,
-        Methods.Mutation.SUB_NODE,
-        Methods.Mutation.ADD_CONN,
-        Methods.Mutation.ADD_CONN,
-        Methods.Mutation.SUB_CONN,
-        Methods.Mutation.ADD_GATE,
+        // Methods.Mutation.ADD_NODE,
+        // Methods.Mutation.ADD_NODE,
+        // Methods.Mutation.SUB_NODE,
+        // Methods.Mutation.ADD_CONN,
+        // Methods.Mutation.ADD_CONN,
+        // Methods.Mutation.SUB_CONN,
         Methods.Mutation.ADD_GATE,
         Methods.Mutation.SUB_GATE,
         Methods.Mutation.MOD_WEIGHT,
