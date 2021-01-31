@@ -1,0 +1,1057 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mutation",
+				"mutationRate\twarning"
+			],
+			[
+				"files",
+				"files\twarning"
+			],
+			[
+				"readas",
+				"readAsBinaryString\tmethod"
+			],
+			[
+				"pred",
+				"predict\tproperty"
+			],
+			[
+				"pre",
+				"predict\tmethod"
+			],
+			[
+				"prec",
+				"predictAve_t\twarning"
+			],
+			[
+				"predcit",
+				"predictAve\tproperty"
+			],
+			[
+				"real",
+				"realSignal\tproperty"
+			],
+			[
+				"predi",
+				"predictAverage\tproperty"
+			],
+			[
+				"aver",
+				"averageSignal\tproperty"
+			],
+			[
+				"predict",
+				"predictSignal\tproperty"
+			],
+			[
+				"predic",
+				"predictSignal\tproperty"
+			],
+			[
+				"rotat",
+				"rotateX\tmethod"
+			],
+			[
+				"scale",
+				"scale3Dobject\tconst"
+			],
+			[
+				"scal",
+				"scale3Dobject\tconst"
+			],
+			[
+				"startButt",
+				"startButtonHighlight\tproperty"
+			],
+			[
+				"loa",
+				"loadingBarAnimationFinished\tproperty"
+			],
+			[
+				"full",
+				"fullWidth\twarning"
+			],
+			[
+				"TWeen",
+				"TWEEN\twarning"
+			],
+			[
+				"_",
+				"_boundsInner\tparameter"
+			],
+			[
+				"_bound",
+				"_boundsOuter\tparameter"
+			],
+			[
+				"top",
+				"topLeftPiece\tlocal var"
+			],
+			[
+				"jigs",
+				"jigsawGuide\tproperty"
+			],
+			[
+				"onTabl",
+				"onTableY\twarning"
+			],
+			[
+				"start",
+				"puzzleStartTime\tproperty"
+			],
+			[
+				"Play",
+				"PLAYING\tproperty"
+			],
+			[
+				"guid",
+				"setGuideLoc\tmethod"
+			],
+			[
+				"gui",
+				"setGuideLoc\tmethod"
+			],
+			[
+				"tutori",
+				"tutorialPointer\tproperty"
+			],
+			[
+				"tutr",
+				"tutorialPointer\tproperty"
+			],
+			[
+				"tuto",
+				"tutorialPointer\tproperty"
+			],
+			[
+				"bound",
+				"boundsOuter\twarning"
+			],
+			[
+				"jig",
+				"jigsaw\tproperty"
+			],
+			[
+				"jigsaw",
+				"jigsawGuide\tproperty"
+			],
+			[
+				"puzzle",
+				"puzzleWide\tproperty"
+			],
+			[
+				"sca",
+				"scaleFactor\twarning"
+			],
+			[
+				"call",
+				"callbackMouseDown\tproperty"
+			],
+			[
+				"cha",
+				"characterSprite\tproperty"
+			],
+			[
+				"Twe",
+				"TWEEN\twarning"
+			],
+			[
+				"gameTit",
+				"gameTitleSprite\tproperty"
+			],
+			[
+				"_an",
+				"_anchorX\tparameter"
+			],
+			[
+				"gameTitl",
+				"gameTitleY\tproperty"
+			],
+			[
+				"startBu",
+				"startButtonY\twarning"
+			],
+			[
+				"o",
+				"setOrientationParams\tmethod"
+			],
+			[
+				"STAR",
+				"START_BUTTON_HIGHLIGHT\tproperty"
+			],
+			[
+				"load",
+				"loadBar\tproperty"
+			],
+			[
+				"table",
+				"scaleOnTable\twarning"
+			],
+			[
+				"Pla",
+				"PLAY\tproperty"
+			],
+			[
+				"_boun",
+				"_boundsOuter\tparameter"
+			],
+			[
+				"jigsa",
+				"jigsawGuide\tproperty"
+			],
+			[
+				"ji",
+				"jigsawComplete\tproperty"
+			],
+			[
+				"corn",
+				"cornerJitterY\tproperty"
+			],
+			[
+				"nears",
+				"nearest2\tlocal var"
+			],
+			[
+				"randomInd",
+				"randomIndices\tlocal var"
+			],
+			[
+				"jigw",
+				"jigsawGuide\tproperty"
+			],
+			[
+				"orig",
+				"originalScale\tlocal var"
+			],
+			[
+				"jgi",
+				"jigsawGuide\tproperty"
+			],
+			[
+				"at",
+				"atan2\tmethod"
+			],
+			[
+				"text",
+				"Textures\tfunction"
+			],
+			[
+				"swap",
+				"swapPieces\twarning"
+			],
+			[
+				"fall",
+				"fallGems\twarning"
+			],
+			[
+				"isd",
+				"isDragging\tproperty"
+			],
+			[
+				"input",
+				"inputOptions\tlet"
+			],
+			[
+				"character",
+				"characterIsSafe\twarning"
+			],
+			[
+				"sc",
+				"SCROLL_SPEED\tproperty"
+			],
+			[
+				"Key",
+				"KeyCodes\twarning"
+			],
+			[
+				"VEL",
+				"JUMP_VELOCITY\twarning"
+			],
+			[
+				"fra",
+				"setFrame\twarning"
+			],
+			[
+				"oldPoin",
+				"oldPoint\tlocal var"
+			],
+			[
+				"largeMod",
+				"largeMode\tlocal var"
+			],
+			[
+				"rayC",
+				"raycaster\tproperty"
+			],
+			[
+				"cameraShak",
+				"cameraShakeViolence\tproperty"
+			],
+			[
+				"Mesh",
+				"Mesh\twarning"
+			],
+			[
+				"inne",
+				"innerWidth\tproperty"
+			],
+			[
+				"Uin",
+				"Uint8Array\tvar"
+			],
+			[
+				"frequ",
+				"frequency\tproperty"
+			],
+			[
+				"frequenc",
+				"frequencyCount\tproperty"
+			],
+			[
+				"frequen",
+				"frequencyCount\tproperty"
+			],
+			[
+				"outpu",
+				"outputContext\tproperty"
+			],
+			[
+				"gridSqu",
+				"gridSquareHigh\tproperty"
+			],
+			[
+				"left",
+				"gridLeft\tproperty"
+			],
+			[
+				"gridSqua",
+				"gridSquareWide\tproperty"
+			],
+			[
+				"gridS",
+				"gridSquareHigh\tproperty"
+			],
+			[
+				"gridSq",
+				"gridSquareWide\tproperty"
+			],
+			[
+				"snakehe",
+				"snakeHeadY\tproperty"
+			],
+			[
+				"snakeh",
+				"snakeHeadX\tproperty"
+			],
+			[
+				"snakeGro",
+				"snakeGrowDelay\tproperty"
+			],
+			[
+				"snake",
+				"snakeGrowTime\tproperty"
+			],
+			[
+				"grid",
+				"gridSquareWide\tproperty"
+			],
+			[
+				"gridsq",
+				"gridSquareWide\tproperty"
+			],
+			[
+				"snakem",
+				"snakeMoveY\twarning"
+			],
+			[
+				"closet",
+				"closestMatches"
+			],
+			[
+				"nei",
+				"neighbours"
+			],
+			[
+				"closst",
+				"closestMatches"
+			],
+			[
+				"point",
+				"point3d"
+			],
+			[
+				"interse",
+				"intersectionOut\tparameter"
+			],
+			[
+				"inters",
+				"intersectionOut\tparameter"
+			],
+			[
+				"inter",
+				"intersectionOut\tparameter"
+			],
+			[
+				"oldpo",
+				"oldPoint3d"
+			],
+			[
+				"oldPoint",
+				"oldPoint3d"
+			],
+			[
+				"closest",
+				"closestMatches"
+			],
+			[
+				"cpb",
+				"cpbuf_node"
+			],
+			[
+				"cmp",
+				"cmp_score_16"
+			],
+			[
+				"uint32",
+				"uint32_t"
+			],
+			[
+				"emscripten",
+				"emscripten_run_script"
+			],
+			[
+				"old",
+				"oldFeatures\tproperty"
+			],
+			[
+				"Vec",
+				"Vector3\twarning"
+			],
+			[
+				"ca",
+				"camA\twarning"
+			],
+			[
+				"V",
+				"Vector3\twarning"
+			],
+			[
+				"cam",
+				"cameraFocalLength\tproperty"
+			],
+			[
+				"wid",
+				"width\twarning"
+			],
+			[
+				"_camera",
+				"_camera_fov\tparameter"
+			],
+			[
+				"N",
+				"NaN\tproperty"
+			],
+			[
+				"_point",
+				"_point3d\tparameter"
+			],
+			[
+				"Vecto",
+				"Vector2\twarning"
+			],
+			[
+				"tran",
+				"translateY\twarning"
+			],
+			[
+				"_c",
+				"_cameraOffsetY\tparameter"
+			],
+			[
+				"currentp",
+				"currentPoint3d\tlocal var"
+			],
+			[
+				"oldCam",
+				"oldCameraRotation\twarning"
+			],
+			[
+				"caemra",
+				"cameraHigh\tproperty"
+			],
+			[
+				"VEctor",
+				"Vector3\twarning"
+			],
+			[
+				"Poin",
+				"point\twarning"
+			],
+			[
+				"oldCamer",
+				"oldCameraQuaternion\tproperty"
+			],
+			[
+				"extr",
+				"extras\tmodule"
+			],
+			[
+				"_levelProg",
+				"_levelProgressBar\tproperty"
+			],
+			[
+				"gameS",
+				"gamesPlayed\tproperty"
+			],
+			[
+				"Games",
+				"GamesPlayed\tproperty"
+			],
+			[
+				"Google",
+				"GoogleAnalyticsTracker\tinterface"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 1870,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/main.js",
+			"settings":
+			{
+				"buffer_size": 4871,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/player.js",
+			"settings":
+			{
+				"buffer_size": 3616,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/walker.js",
+			"settings":
+			{
+				"buffer_size": 1357,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/js/field.js",
+			"settings":
+			{
+				"buffer_size": 2671,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Con",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"next",
+				"SublimeLinter: Next Error"
+			]
+		],
+		"width": 416.0
+	},
+	"console":
+	{
+		"height": 290.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"jsl",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/wamp64/www/neataptic/neataptic-targetseeking-tron",
+		"/E/wamp64/www/neataptic/neataptic-targetseeking-tron/public"
+	],
+	"file_history":
+	[
+		"/E/wamp64/www/neataptic/neataptic-targetseeking-tron/public/js/testHarness.js",
+		"/E/wamp64/www/neataptic/neataptic-targetseeking-tron/public/js/population.js",
+		"/E/wamp64/www/cnn/index.html",
+		"/E/wamp64/www/cnn/src/demos/MNIST.js",
+		"/E/wamp64/www/neataptic/neataptic-targetseeking-tron/server.js",
+		"/E/wamp64/www/cnn/src/ga/Ga.js",
+		"/E/wamp64/www/neataptic/dist/worker.js",
+		"/E/wamp64/www/neataptic/dist/neataptic.js",
+		"/E/wamp64/www/_generic canvas game project/src/Entity.js",
+		"/E/wamp64/www/_generic canvas game project/src/Game.js",
+		"/E/wamp64/www/_generic canvas game project/src/World.js",
+		"/E/wamp64/www/_generic canvas game project/src/Titles.js",
+		"/E/wamp64/www/_generic canvas game project/src/Main.js",
+		"/E/wamp64/www/speedy-vision-js/src/index.js",
+		"/E/wamp64/www/hands/libs/GLTFLoader.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/Sprite.js",
+		"/E/wamp64/www/Jigsaws/src/GameControl.js",
+		"/C/Users/Pete/Desktop/hosts",
+		"/E/wamp64/www/Jigsaws/index_deploy.html",
+		"/E/wamp64/www/Jigsaws/src/_ui/Button.js",
+		"/E/wamp64/www/Jigsaws/images/_high/preloader/preloader.json",
+		"/E/wamp64/www/Jigsaws/src/Game.js",
+		"/E/wamp64/www/Jigsaws/src/Jigsaw.js",
+		"/E/wamp64/www/Jigsaws/json/lang.json",
+		"/E/wamp64/www/Jigsaws/json/JSON/regularPieces.json",
+		"/E/wamp64/www/Jigsaws/audio/_sprite/sound_sprite.json",
+		"/E/wamp64/www/Jigsaws/src/_managers/AudioManager.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/EventHandlers.js",
+		"/E/wamp64/www/Jigsaws/src/Preloader.js",
+		"/E/wamp64/www/Jigsaws/src/JigsawPiece.js",
+		"/E/wamp64/www/Jigsaws/src/Titles.js",
+		"/E/wamp64/www/Jim - speedup/www/app.js",
+		"/E/wamp64/www/Jigsaws/index.html",
+		"/E/wamp64/www/node_modules/howler/dist/howler.min.js",
+		"/E/wamp64/www/package-lock.json",
+		"/E/wamp64/www/Jigsaws/lib/pixi_453pjb.js",
+		"/E/wamp64/www/Jigsaws/src/_managers/Textures.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/Text.js",
+		"/E/wamp64/www/Jigsaws/images/_high/sprites/_loose_files.json",
+		"/E/wamp64/www/Jigsaws/images/_high/sprites/loose_files.json",
+		"/E/wamp64/www/Jigsaws/images/_high/preloader/_preloader.json",
+		"/E/wamp64/www/Jigsaws/src/Main.js",
+		"/E/wamp64/www/Jigsaws/images/_high/loose_files.json",
+		"/E/wamp64/www/Jigsaws/src/_utils/Utils.js",
+		"/E/HTML5",
+		"/E/HTML5 Projects/_released/BubbleDragons mine/src/images/_reduced/high/Projects/_released/BubbleDragons",
+		"/E/HTML5 Projects/_released/BubbleDragons mine/src/images/_reduced/high/mine/src/images/_reduced/high/gameAtlas.json",
+		"/E/wamp64/www/Jigsaws/src/_ui/SpriteData.js",
+		"/E/wamp64/www/Jigsaws/deploy/lib/ifvisible.min.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/detect-browser.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/FadeState.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/Point.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/EventSignals.js",
+		"/E/wamp64/www/Jigsaws/src/Hermite.js",
+		"/E/wamp64/www/Jigsaws/src/_managers/DataManager.js",
+		"/E/wamp64/www/Jigsaws/deploy/app.js",
+		"/E/wamp64/www/Jigsaws/lib/Tween.js",
+		"/E/wamp64/www/Jigsaws/lib/Tween.min.js",
+		"/E/wamp64/www/Jigsaws/data/symbol_offsets.json",
+		"/E/wamp64/www/Jigsaws/src/_utils/Keys.js",
+		"/E/wamp64/www/Jim - speedup/www/viewporter.js",
+		"/E/wamp64/www/Jigsaws/data/text_styles.json",
+		"/E/wamp64/www/Jigsaws/images/_reduced/high/loose_files.json",
+		"/E/wamp64/www/Jigsaws/src/_utils/Locale.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/Tweener.js",
+		"/E/wamp64/www/Jigsaws/lib/Shifty.min.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/Effects.js",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/User/ESLint.sublime-settings",
+		"/C/Users/Pete/AppData/Roaming/Sublime",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/Text",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/3/Packages/.eslintrc.json",
+		"/E/Program Files/Sublime Text 3/sublime_text.exe",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/TypeScript/tsserver/watchGuard.js",
+		"/E/HTML5 Projects/_released/BubbleDragons mine/src/source_code/_utils/EventHandlers.js",
+		"/E/wamp64/www/Jigsaws/lib/stats.min.js",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/User/JsFormat.sublime-settings",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/Javascript Beautify/JavascriptBeautify.sublime-settings",
+		"/C/Users/Pete/AppData/Roaming/Sublime Text 3/Packages/User/JavascriptBeautify.sublime-settings",
+		"/E/wamp64/www/ghost-purity/src/Preloader.js",
+		"/E/wamp64/www/Jigsaws/images/_high/sprites.js",
+		"/E/wamp64/www/Jigsaws/data/JSON/regularPieces.json",
+		"/E/wamp64/www/Jigsaws/deploy/src/Game.js",
+		"/E/wamp64/www/Jigsaws/deploy/src/_ui/BigMessage.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/Confirm.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/Help.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/LevelSelect.js",
+		"/E/wamp64/www/Jigsaws/src/_ui/Options.js",
+		"/E/wamp64/www/bubble coding no git/invaders/src/sys/BubbleSystemDisplay.js",
+		"/E/wamp64/www/Jigsaws/src/World.js",
+		"/E/wamp64/www/Jigsaws/src/_utils/LoadSave.js",
+		"/E/wamp64/www/Jigsaws/MIT_LICENSE.txt",
+		"/E/wamp64/www/Jigsaws/package.json",
+		"/E/wamp64/www/Jigsaws/www/src/Boot.js",
+		"/E/wamp64/www/Jigsaws/assets/JSON/regularPieces.json",
+		"/E/wamp64/www/plai-slam-web/emscripten_tracking/out/out.js",
+		"/C/Users/Pete/AppData/Local/Temp/7zOC087AB26/index.html",
+		"/E/wamp64/www/h5-cordova-starter/www/index.html",
+		"/E/wamp64/www/h5-cordova-starter/package.json",
+		"/E/wamp64/www/h5-cordova-starter/config.xml",
+		"/E/wamp64/www/h5-cordova-starter/www/app.js",
+		"/E/wamp64/www/sprint_club_nitro.cordova/platforms/android/app/build/outputs/apk/debug/output.json",
+		"/C/Users/Pete/Desktop/sprites.js",
+		"/E/wamp64/www/threeFind/index.html",
+		"/E/wamp64/www/threeFind/src/game.js",
+		"/E/Program",
+		"/E/unity/MyTankHasNoBrakes/Files/Unity",
+		"/E/unity/MyTankHasNoBrakes/Versions/2018.1.9f2/Editor/Data/Documentation/en/Manual/class-Material.html",
+		"/E/wamp64/www/threeFind/src/match3.js",
+		"/E/wamp64/www/threeFind/src - no fall/game.js",
+		"/E/wamp64/www/threeFind/grfx/balls.json",
+		"/E/wamp64/www/threeFind/src - no fall/match3.js",
+		"/E/wamp64/www/ghost-purity/src/Main.js",
+		"/E/wamp64/www/ghost-purity/src/Character.js",
+		"/E/wamp64/www/ghost-purity/src/_ui/Effects.js",
+		"/E/wamp64/www/ghost-purity/src/_ui/Lives.js",
+		"/E/wamp64/www/ghost-purity/index.html",
+		"/E/wamp64/www/ghost-purity/src/_ui/SpriteData.js",
+		"/E/wamp64/www/ghost-purity/src/_ui/Sprite.js",
+		"/E/wamp64/www/ghost-purity/src/_managers/AudioManager.js",
+		"/E/wamp64/www/__game shell JS/src/_utils/Effects.js",
+		"/E/wamp64/www/ghost-purity/art/game/animations/purity-0.json",
+		"/E/wamp64/www/ghost-purity/art/game/animations/purity-3.json",
+		"/E/wamp64/www/ghost-purity/art/game/animations/purity-2.json",
+		"/E/wamp64/www/ghost-purity/art/game/animations/purity-1.json",
+		"/E/wamp64/www/ghost-purity/src/_utils/EventHandlers.js",
+		"/E/HTML5 Projects/_released/BubbleDragons mine/src/source_code/Preloader.js",
+		"/E/wamp64/www/ghost-purity/src/GameControl.js",
+		"/E/wamp64/www/ghost-purity/_deploy/src/_ui/Sprite.js"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 190.0,
+		"where_history":
+		[
+			"E:\\wamp64\\www\\neataptic\\neataptic-targetseeking-tron",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"wrap",
+			"mutationAmount",
+			"neat.mut",
+			"neat",
+			"firstConvergence",
+			"genomeIdx",
+			"draw()",
+			"requestanimationframe",
+			"this.r",
+			"MUTATION_RATE",
+			"TWO_PI",
+			"output",
+			"endEvaluation",
+			"output",
+			"ADD_NODE"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1870,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1416,
+								1416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/js/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4871,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1510,
+								1510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/player.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "public/js/walker.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								713,
+								713
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/js/field.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 49.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 503.0
+	},
+	"output.find_results":
+	{
+		"height": 483.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "tron.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 283.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
