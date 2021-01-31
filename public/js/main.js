@@ -8,11 +8,11 @@ var Architect = neataptic.Architect;
 Config.warnings = false;
 
 /** Settings */
-var SPEED 			 = 4;
-var WIDTH            = $(window).width();	//1024;
-var HEIGHT           = $(window).height(); 	//768;
+var SPEED 			 = 10;
+var WIDTH            = window.innerWidth;
+var HEIGHT           = window.innerHeight;
 var THRUST			 = 1.5;
-var FRICTION		 = 0.001;
+var FRICTION		 = 0.002;
 var MAX_SPEED        = WIDTH/300;
 var START_X          = WIDTH/2;
 var START_Y          = HEIGHT/2;
@@ -20,9 +20,9 @@ var SCORE_RADIUS     = WIDTH/6;
 
 // GA settings
 var PLAYER_AMOUNT    = 100;
-var ITERATIONS       = 500;
+var ITERATIONS       = 400;
 var MUTATION_RATE    = 0.2;
-var MAX_MUTATION	 = 0.5;
+var MAX_MUTATION	 = 0.6;
 var ELITISM          = Math.round(0.25 * PLAYER_AMOUNT);
 
 // Trained population
@@ -44,14 +44,11 @@ function initNeat(){
     {
       mutation: [
         Methods.Mutation.ADD_NODE,
-        Methods.Mutation.ADD_NODE,
         Methods.Mutation.SUB_NODE,
 
         Methods.Mutation.ADD_CONN,
-        Methods.Mutation.ADD_CONN,
         Methods.Mutation.SUB_CONN,
 
-        Methods.Mutation.ADD_GATE,
         Methods.Mutation.ADD_GATE,
         Methods.Mutation.SUB_GATE,
 

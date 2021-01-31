@@ -532,7 +532,7 @@
 			"file": "public/js/main.js",
 			"settings":
 			{
-				"buffer_size": 4932,
+				"buffer_size": 4784,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -856,15 +856,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4932,
+						"buffer_size": 4784,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								514,
-								514
+								633,
+								633
 							]
 						],
 						"settings":
@@ -921,8 +921,8 @@
 						"selection":
 						[
 							[
-								4450,
-								4450
+								6897,
+								6897
 							]
 						],
 						"settings":
@@ -938,7 +938,7 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 440.0,
+						"translation.y": 3320.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
