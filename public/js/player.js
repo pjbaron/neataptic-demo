@@ -27,6 +27,8 @@ Player.prototype =
 
         let leftFinMuscle = output[0];
         let rightFinMuscle = output[1];
+
+        // validate brain outputs (must be normalised to be muscle signals)
         if (isNaN(leftFinMuscle)) leftFinMuscle = 0;
         if (isNaN(rightFinMuscle)) rightFinMuscle = 0;
         if (leftFinMuscle < 0) leftFinMuscle = 0;
@@ -42,31 +44,33 @@ Player.prototype =
         const mr = this.rightFinAngle;
         if (leftFinMuscle != this.leftFinAngle)
         {
-            this.leftFinAngle += (leftFinMuscle - this.leftFinAngle) * 0.1;
+            this.leftFinAngle += (leftFinMuscle - this.leftFinAngle) * 0.2;
             if (this.leftFinAngle < ml)
             {
-                rotation += (ml - this.leftFinAngle);
-                speed += (ml - this.leftFinAngle);
+                const thrust = (ml - this.leftFinAngle) * THRUST;
+                rotation += thrust;
+                speed += thrust;
             }
         }
         if (rightFinMuscle != this.rightFinAngle)
         {
-            this.rightFinAngle += (rightFinMuscle - this.rightFinAngle) * 0.1;
+            this.rightFinAngle += (rightFinMuscle - this.rightFinAngle) * 0.2;
             if (this.rightFinAngle < mr)
             {
-                rotation -= (mr - this.rightFinAngle);
-                speed += (mr - this.rightFinAngle);
+                const thrust = (mr - this.rightFinAngle) * THRUST;
+                rotation -= thrust;
+                speed += thrust;
             }
         }
 
-        // calculate friction from fin positions (wider open = turn faster)
+        // apply friction from fin positions as rotation force (wider open = turn faster on that side)
         rotation += (this.rightFinAngle * 0.1 - this.leftFinAngle * 0.1) * speed / MAX_SPEED;
 
-        // turn from fin thrusts and fin friction
+        // turn from combined fin thrusts and fin friction
         angle += rotation;
 
-        // apply friction proportional to speed
-        speed -= FRICTION * speed;
+        // apply friction proportional to speed and fin open status
+        speed -= (FRICTION + (this.rightFinAngle + this.leftFinAngle) * 0.02) * speed;
 
         // recalculate vx, vy from velocity and new angle
         if (speed < 0) speed = 0;
@@ -130,17 +134,18 @@ Player.prototype =
         if (dx < -WIDTH / 2) dx = WIDTH + dx;
         if (dy > HEIGHT / 2) dy = HEIGHT - dy;
         if (dy < -HEIGHT / 2) dy = HEIGHT + dy;
+
+        let speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy) / MAX_SPEED;
         var dist = Math.sqrt(dx * dx + dy * dy);
-        if (dist < SCORE_RADIUS)
+
+        // if they're not moving, they don't get any points for reaching the target area
+        // (encourage them to move and remove the 'accidental' element of them being born in the target area)
+        if (dist < SCORE_RADIUS && speed > 0.05)
         {
             this.brain.score += (SCORE_RADIUS - dist) / SCORE_RADIUS;
             if (this.brain.score <= 0)
                 this.brain.score = 0;
         }
-
-        // small bonus for movement (to kick-start the evolution)
-        let speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy) / MAX_SPEED;
-        if (speed > 0.1) this.brain.score += 1 / ITERATIONS;
 
         // Replace highest score to visualise
         highestScore = this.brain.score > highestScore ? this.brain.score : highestScore;

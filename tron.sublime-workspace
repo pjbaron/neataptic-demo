@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"leftFin",
+				"leftFinMuscle\tlet"
+			],
+			[
+				"leftfin",
+				"leftFinMuscle\tlocal var"
+			],
+			[
 				"mutation",
 				"mutationRate\twarning"
 			],
@@ -506,14 +514,6 @@
 			[
 				"gameS",
 				"gamesPlayed\tproperty"
-			],
-			[
-				"Games",
-				"GamesPlayed\tproperty"
-			],
-			[
-				"Google",
-				"GoogleAnalyticsTracker\tinterface"
 			]
 		]
 	},
@@ -532,7 +532,7 @@
 			"file": "public/js/main.js",
 			"settings":
 			{
-				"buffer_size": 4854,
+				"buffer_size": 4932,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -549,7 +549,7 @@
 			"file": "public/js/player.js",
 			"settings":
 			{
-				"buffer_size": 4359,
+				"buffer_size": 6897,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -766,6 +766,7 @@
 		"height": 190.0,
 		"where_history":
 		[
+			"E:\\wamp64\\www\\neataptic\\neataptic-demo",
 			"E:\\wamp64\\www\\neataptic\\neataptic-targetseeking-tron",
 			""
 		]
@@ -775,6 +776,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"+ Math.PI",
+			"velocity",
+			"lerp",
+			"leftFinAngle",
+			"vx",
+			"getPos",
+			"\\t",
 			"  ",
 			"this.r",
 			"script",
@@ -811,7 +819,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -848,15 +856,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4854,
+						"buffer_size": 4932,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1409,
-								1409
+								514,
+								514
 							]
 						],
 						"settings":
@@ -865,10 +873,10 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 540.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -897,7 +905,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -906,15 +914,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4359,
+						"buffer_size": 6897,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1022,
-								1022
+								4450,
+								4450
 							]
 						],
 						"settings":
@@ -930,10 +938,10 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 440.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -949,8 +957,8 @@
 						"selection":
 						[
 							[
-								713,
-								713
+								690,
+								690
 							]
 						],
 						"settings":
@@ -962,7 +970,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{

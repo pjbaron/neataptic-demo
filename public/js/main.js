@@ -8,18 +8,19 @@ var Architect = neataptic.Architect;
 Config.warnings = false;
 
 /** Settings */
-var SPEED 			 = 1;
+var SPEED 			 = 4;
 var WIDTH            = $(window).width();	//1024;
 var HEIGHT           = $(window).height(); 	//768;
-var FRICTION		 = 0.01
-var MAX_SPEED        = WIDTH/150;
+var THRUST			 = 1.5;
+var FRICTION		 = 0.001;
+var MAX_SPEED        = WIDTH/300;
 var START_X          = WIDTH/2;
 var START_Y          = HEIGHT/2;
 var SCORE_RADIUS     = WIDTH/6;
 
 // GA settings
-var PLAYER_AMOUNT    = 200;
-var ITERATIONS       = 200;
+var PLAYER_AMOUNT    = 100;
+var ITERATIONS       = 500;
 var MUTATION_RATE    = 0.2;
 var MAX_MUTATION	 = 0.5;
 var ELITISM          = Math.round(0.25 * PLAYER_AMOUNT);
@@ -42,24 +43,30 @@ function initNeat(){
     null,
     {
       mutation: [
-        // Methods.Mutation.ADD_NODE,
-        // Methods.Mutation.ADD_NODE,
-        // Methods.Mutation.SUB_NODE,
-        // Methods.Mutation.ADD_CONN,
-        // Methods.Mutation.ADD_CONN,
-        // Methods.Mutation.SUB_CONN,
+        Methods.Mutation.ADD_NODE,
+        Methods.Mutation.ADD_NODE,
+        Methods.Mutation.SUB_NODE,
+
+        Methods.Mutation.ADD_CONN,
+        Methods.Mutation.ADD_CONN,
+        Methods.Mutation.SUB_CONN,
+
+        Methods.Mutation.ADD_GATE,
         Methods.Mutation.ADD_GATE,
         Methods.Mutation.SUB_GATE,
+
         Methods.Mutation.MOD_WEIGHT,
         Methods.Mutation.MOD_WEIGHT,
         Methods.Mutation.MOD_BIAS,
         Methods.Mutation.MOD_BIAS,
         Methods.Mutation.MOD_ACTIVATION,
         Methods.Mutation.MOD_ACTIVATION,
-        //Methods.Mutation.ADD_SELF_CONN,
-        //Methods.Mutation.SUB_SELF_CONN,
-        //Methods.Mutation.ADD_BACK_CONN,
-        //Methods.Mutation.SUB_BACK_CONN
+
+        Methods.Mutation.ADD_SELF_CONN,
+        Methods.Mutation.SUB_SELF_CONN,
+
+        Methods.Mutation.ADD_BACK_CONN,
+        Methods.Mutation.SUB_BACK_CONN
       ],
       popsize: PLAYER_AMOUNT,
       mutationRate: MAX_MUTATION,
@@ -130,7 +137,7 @@ function endEvaluation()
   for(var i = 0; i < neat.elitism; i++)
   {
   	var j = neat.population[i].genomeIdx;
-    totalScore += Math.max(players[j].brain.score, 0);
+    totalScore += Math.max(players[j].brain.score / ITERATIONS * 100, 0);
   }
   averageScore = totalScore / neat.elitism;
 

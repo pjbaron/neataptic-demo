@@ -23,8 +23,8 @@ Walker.prototype = {
     this.vy += this.ay;
 
     // Limit speeds to maximum speed
-    this.vx = this.vx > MAX_SPEED/2 ? MAX_SPEED/2 : this.vx < -MAX_SPEED/2 ? -MAX_SPEED/2 : this.vx;
-    this.vy = this.vy > MAX_SPEED/2 ? MAX_SPEED/2 : this.vy < -MAX_SPEED/2 ? -MAX_SPEED/2 : this.vy;
+    this.vx = this.vx > MAX_SPEED/4 ? MAX_SPEED/4 : this.vx < -MAX_SPEED/4 ? -MAX_SPEED/4 : this.vx;
+    this.vy = this.vy > MAX_SPEED/4 ? MAX_SPEED/4 : this.vy < -MAX_SPEED/4 ? -MAX_SPEED/4 : this.vy;
 
     this.x += this.vx;
     this.y += this.vy;
