@@ -138,13 +138,13 @@ Player.prototype =
         let speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy) / MAX_SPEED;
         var dist = Math.sqrt(dx * dx + dy * dy);
 
-        // if they're not moving, they don't get any points for reaching the target area
-        // (encourage them to move and remove the 'accidental' element of them being born in the target area)
-        if (dist < SCORE_RADIUS && speed > 0.05)
+        // if they're not moving, they don't get any points
+        // (encourage them to move and remove the 'accidental' element of them being born close to the target)
+        if (speed > 0.05)
         {
-            this.brain.score += (SCORE_RADIUS - dist) / SCORE_RADIUS;
-            if (this.brain.score <= 0)
-                this.brain.score = 0;
+            // exponential score function
+            let ds = (MAX_DIST - dist) / MAX_DIST;
+            this.brain.score += ds * ds * ds;
         }
 
         // Replace highest score to visualise
@@ -200,8 +200,11 @@ Player.prototype =
         if (dy > HEIGHT / 2) dy = HEIGHT - dy;
         if (dy < -HEIGHT / 2) dy = HEIGHT + dy;
 
-        var targetAngle = (Math.atan2(dy, dx) + Math.PI / 2.0) / TWO_PI;
-        var dist = Math.sqrt(dx * dx + dy * dy) / Math.sqrt(WIDTH*WIDTH + HEIGHT*HEIGHT);
+        var a = (Math.atan2(dy, dx) + Math.PI / 2.0);
+        if (a < 0) a += TWO_PI;
+        if (a >= TWO_PI) a -= TWO_PI;
+        var targetAngle = a / TWO_PI;
+        var dist = Math.sqrt(dx * dx + dy * dy) / MAX_DIST;
 
         let angle = (Math.atan2(this.vy, this.vx) + Math.PI / 2.0) / TWO_PI;
         let speed = Math.sqrt(this.vx * this.vx + this.vy * this.vy) / MAX_SPEED;
@@ -210,6 +213,6 @@ Player.prototype =
         let wave = (Math.sin(this.clock * 0.1) + 1.0) * 0.5;
 
         // all values must be normalised 0..1
-        return [angle, speed, targetAngle, dist, (this.clock % ITERATIONS) / ITERATIONS, wave];
+        return [angle, speed, targetAngle, dist, 1 - dist, wave];
     },
 };
