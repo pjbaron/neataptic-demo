@@ -1,7 +1,7 @@
 /** Rename vars */
 var Neat    = neataptic.Neat;
-var Methods = neataptic.Methods;
-var Config  = neataptic.Config;
+var Methods = neataptic.methods;
+var Config  = neataptic.config;
 var Architect = neataptic.Architect;
 
 /** Turn off warnings */
@@ -43,27 +43,27 @@ function initNeat(){
     null,
     {
       mutation: [
-        Methods.Mutation.ADD_NODE,
-        Methods.Mutation.SUB_NODE,
+        Methods.mutation.ADD_NODE,
+        Methods.mutation.SUB_NODE,
 
-        Methods.Mutation.ADD_CONN,
-        Methods.Mutation.SUB_CONN,
+        Methods.mutation.ADD_CONN,
+        Methods.mutation.SUB_CONN,
 
-        Methods.Mutation.ADD_GATE,
-        Methods.Mutation.SUB_GATE,
+        Methods.mutation.ADD_GATE,
+        Methods.mutation.SUB_GATE,
 
-        Methods.Mutation.MOD_WEIGHT,
-        Methods.Mutation.MOD_WEIGHT,
-        Methods.Mutation.MOD_BIAS,
-        Methods.Mutation.MOD_BIAS,
-        Methods.Mutation.MOD_ACTIVATION,
-        Methods.Mutation.MOD_ACTIVATION,
+        Methods.mutation.MOD_WEIGHT,
+        Methods.mutation.MOD_WEIGHT,
+        Methods.mutation.MOD_BIAS,
+        Methods.mutation.MOD_BIAS,
+        Methods.mutation.MOD_ACTIVATION,
+        Methods.mutation.MOD_ACTIVATION,
 
-        Methods.Mutation.ADD_SELF_CONN,
-        Methods.Mutation.SUB_SELF_CONN,
+        Methods.mutation.ADD_SELF_CONN,
+        Methods.mutation.SUB_SELF_CONN,
 
-        Methods.Mutation.ADD_BACK_CONN,
-        Methods.Mutation.SUB_BACK_CONN
+        Methods.mutation.ADD_BACK_CONN,
+        Methods.mutation.SUB_BACK_CONN
       ],
       popsize: PLAYER_AMOUNT,
       mutationRate: MAX_MUTATION,
